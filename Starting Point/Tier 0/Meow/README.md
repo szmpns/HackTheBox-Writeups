@@ -6,7 +6,7 @@
 
 ### Ping
 
-When you want to test your connection to target you can simply ping it:
+When you want to test your connection to the target you can simply ping it:
 
 ![ping](meowping.png)
 
