@@ -1,6 +1,6 @@
 # Redeemer      
 
-![Fawn](redemeerlogo.png)
+![logo](redemeerlogo.png)
 
 ## Solution
 
@@ -30,7 +30,7 @@ redis-cli -h {target ip}
 
 ![redis](redeemerredis.png)
 
-When you are in type `info` for more informations.
+When you are in, type `info` for more informations.
 
 ![redis](redeemerredis2.png)
 
