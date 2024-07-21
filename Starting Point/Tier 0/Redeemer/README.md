@@ -10,7 +10,6 @@ Type:
 
 ```
 nmap -p- -sV -T4 {target ip} -v
-
 ```
 
 ![nmap](redeemernmap.png)
