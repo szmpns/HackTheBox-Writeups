@@ -22,7 +22,7 @@ You can paste `target ip` into the browser and you should see this:
 
 ### Burpsuite with a SQL Injection
 
-We are going to use `Burpsuite`. If you are not familiar with this tool, search for some tutorials via Internet. Also, make every effort to understand how to set up a proxy.
+We will use `Burpsuite`. If you are not familiar with this tool, search for some tutorials via Internet. Also, make every effort to understand how to set up a proxy.
 
 We are going to put fake credentials like `test` `test` to intercept the request.
 
@@ -44,7 +44,7 @@ If all of the above is done press `Start attack`.
 
 ![Burpsuite](appointmentburp5.png)
 
-We can see that three payloads workerd:
+We can see that three payloads have worked:
 
 ```
 admin' #
@@ -60,7 +60,7 @@ admin' or '1'='1'#
 
 #### Disclaimer
 
-To do this I reccomend dictionary from `SecLists`. Full path:
+To do this I recommend dictionary from `SecLists`. Full path:
 
 ```
 SecLists/Fuzzing/SQLi/quick-SQLi.txt 
