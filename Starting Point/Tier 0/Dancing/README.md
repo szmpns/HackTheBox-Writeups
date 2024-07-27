@@ -1,6 +1,6 @@
 # Dancing      
 
-![Fawn](dancinglogo.png)
+![Dancing](./Screenshots/dancinglogo.png)
 
 ## Solution
 
@@ -12,7 +12,7 @@ Type:
 nmap -sC -sV {target ip} -v
 ```
 
-![nmap](dancingnmap.png)
+![nmap](./Screenshots/dancingnmap.png)
 
 Three ports are open. But we want to focus at `SMB`(port 445).
 
@@ -30,7 +30,7 @@ smbclient -L {target ip}
 
 When it asks you to specify the password just press `enter`.
 
-![smbclient](dancingsmb.png)
+![smbclient](./Screenshots/dancingsmb.png)
 
 Four shares are displayed.
 
@@ -40,7 +40,7 @@ We can try to connect to some of them by pasting in terminal:
 smbclient \\\\{target ip}\\{target sharename}
 ```
 
-![smbclient](dancingsmb2.png)
+![smbclient](./Screenshots/dancingsmb2.png)
 
 Go with:
 
@@ -48,7 +48,7 @@ Go with:
 smbclient \\\\{target ip}\\WorkShares
 ```
 
-![smbclient](dancingsmb3.png)
+![smbclient](./Screenshots/dancingsmb3.png)
 
 It is the only one share that we are able to access with a blank password.
 
@@ -56,9 +56,9 @@ You can type `help` if you are looking for commands.
 
 `James.P` directory contains a flag.
 
-![smbclient](dancingsmb4.png)
+![smbclient](./Screenshots/dancingsmb4.png)
 
-![smbclient](dancingsmb5.png)
+![smbclient](./Screenshots/dancingsmb5.png)
 
 ### Get the flag
 
@@ -68,19 +68,19 @@ We want to simply `get` `flag.txt` file. To do that we have to be in `James.P` d
 get flag.txt
 ```
 
-![get](dancingget.png)
+![get](./Screenshots/dancingget.png)
 
 ### ls and cat
 
 You can leave `smb` by just simply using `Ctrl + d` combination or open new terminal window.
 
-![ls+cat](dancingflag.png)
+![ls+cat](./Screenshots/dancingflag.png)
 
 Flag is there. Good job.
 
 ### Paste the flag
 
-![pwned](dancingpwned.png)
+![pwned](./Screenshots/dancingpwned.png)
 
 ## Answers
 
