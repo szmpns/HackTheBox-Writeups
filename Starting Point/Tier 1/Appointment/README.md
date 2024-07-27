@@ -1,6 +1,6 @@
 # Appointment      
 
-![Appointment](appointmentlogo.png)
+![Appointment](./Screenshots/appointmentlogo.png)
 
 ## Solution
 
@@ -12,13 +12,13 @@ Type:
 nmap -sC -sV {target ip} -v
 ```
 
-![nmap](appointmentnmap.png)
+![nmap](./Screenshots/appointmentnmap.png)
 
 80/tcp is open. Service is `http`.
 
 You can paste `target ip` into the browser and you should see this:
 
-![web](appointmentweb.png)
+![web](./Screenshots/appointmentweb.png)
 
 ### Burpsuite with a SQL Injection
 
@@ -26,23 +26,23 @@ We will use `Burpsuite`. If you are not familiar with this tool, search for some
 
 We are going to put fake credentials like `test` `test` to intercept the request.
 
-![Burpsuite](appointmentburp.png)
+![Burpsuite](./Screenshots/appointmentburp.png)
 
-![Burpsuite](appointmentburp2.png)
+![Burpsuite](./Screenshots/appointmentburp2.png)
 
 Send this request to intruder.
 
 Mark `test` after username and click `Add §` icon. 
 
-![Burpsuite](appointmentburp3.png)
+![Burpsuite](./Screenshots/appointmentburp3.png)
 
 Go to `Payloads` section and in `Payload settings` load payload which you want to use.
 
-![Burpsuite](appointmentburp4.png)
+![Burpsuite](./Screenshots/appointmentburp4.png)
 
 If all of the above is done press `Start attack`.
 
-![Burpsuite](appointmentburp5.png)
+![Burpsuite](./Screenshots/appointmentburp5.png)
 
 We can see that three payloads have worked:
 
@@ -70,16 +70,16 @@ SecLists/Fuzzing/SQLi/quick-SQLi.txt
 
 To get the flag we have to paste one of the payloads above as `Username` and whatever you want as `Password`.
 
-![Burpsuite](appointmentburp6.png)
+![Burpsuite](./Screenshots/appointmentburp6.png)
 
 Here is the flag:
 
-![flag](appointmentflag.png)
+![flag](./Screenshots/appointmentflag.png)
 
 
 ### Paste the flag
 
-![pwned](appointmentpwned.png)
+![pwned](./Screenshots/appointmentpwned.png)
 
 ## Answers
 
