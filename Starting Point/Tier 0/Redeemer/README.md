@@ -1,6 +1,6 @@
 # Redeemer      
 
-![logo](redemeerlogo.png)
+![logo](./Screenshots/redemeerlogo.png)
 
 ## Solution
 
@@ -12,7 +12,7 @@ Type:
 nmap -p- -sV -T4 {target ip} -v
 ```
 
-![nmap](redeemernmap.png)
+![nmap](./Screenshots/redeemernmap.png)
 
 Port 6379/tcp is open. Service is `redis` and its version is `Redis key-value store 5.0.7`.
 
@@ -28,13 +28,13 @@ Type:
 redis-cli -h {target ip}
 ```
 
-![redis](redeemerredis.png)
+![redis](./Screenshots/redeemerredis.png)
 
 When you are in, type `info` for more informations.
 
-![redis](redeemerredis2.png)
+![redis](./Screenshots/redeemerredis2.png)
 
-![redis](redeemerredis3.png)
+![redis](./Screenshots/redeemerredis3.png)
 
 ### Get the flag
 
@@ -55,13 +55,13 @@ Then we go with:
 get flag
 ```
 
-![get](redeemerredis4.png)
+![get](./Screenshots/redeemerredis4.png)
 
 Here comes the flag.
 
 ### Paste the flag
 
-![pwned](redeemerpwned.png)
+![pwned](./Screenshots/redeemerpwned.png)
 
 ## Answers
 
