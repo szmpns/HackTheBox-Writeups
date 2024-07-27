@@ -104,7 +104,7 @@ You'll see the panel:
 
 ![panel](./Screenshots/crocodilelogweb.png)
 
-Paste `admin `credentials which we previously got.
+Paste `admin`credentials which we previously got.
 
 ![panel](./Screenshots/crocodilelogweb2.png)
 
