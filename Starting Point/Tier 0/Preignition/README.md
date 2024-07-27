@@ -1,6 +1,6 @@
 # Preignition      
 
-![Preignition](preignitionlogo.png)
+![Preignition](./Screenshots/preignitionlogo.png)
 
 ## Solution
 
@@ -12,13 +12,13 @@ Type:
 nmap -sV {target ip} -v
 ```
 
-![nmap](preignitionnmap.png)
+![nmap](./Screenshots/preignitionnmap.png)
 
 80/tcp is open. Service is `http` and version is `nginx 1.14.2`.
 
 Let's paste it to our browser.
 
-![http](preignitionhttp.png)
+![http](./Screenshots/preignitionhttp.png)
 
 ### gobuster
 
@@ -37,7 +37,7 @@ gobuster dir -u http://{target ip}/ -w /usr/share/wordlists/dirb/common.txt
 
 `-w` - Specifies the wordlist file to use for the brute-force scan.
 
-![gobuster](preignitiongobuster.png)
+![gobuster](./Screenshots/preignitiongobuster.png)
 
 We found `admin` panel.
 
@@ -49,7 +49,7 @@ Now type into your browser:
 http://{target ip}/admin.php
 ```
 
-![admin](preignitionadmin.png)
+![admin](./Screenshots/preignitionadmin.png)
 
 Now we are met with an administrative panel for the website. It asks us for a username and password.
 
@@ -61,15 +61,15 @@ We'll try with:
 admin admin
 ```
 
-![admin](preignitionadmin2.png)
+![admin](./Screenshots/preignitionadmin2.png)
 
-![flag](preignitionflag.png)
+![flag](./Screenshots/preignitionflag.png)
 
 Flag is there.
 
 ### Paste the flag
 
-![pwned](preignitionpwned.png)
+![pwned](./Screenshots/preignitionpwned.png)
 
 ## Answers
 
