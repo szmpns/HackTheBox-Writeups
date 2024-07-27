@@ -1,6 +1,6 @@
 # Explosion      
 
-![Explosion](explosionlogo.png)
+![Explosion](./Screenshots/explosionlogo.png)
 
 ## Solution
 
@@ -12,9 +12,9 @@ Type:
 nmap -sC -sV {target ip} -v
 ```
 
-![nmap](explosionnmap.png)
+![nmap](./Screenshots/explosionnmap.png)
 
-![nmap](explosionnmap2.png)
+![nmap](./Screenshots/explosionnmap2.png)
 
 3389/tcp is open. Service is `ms-wbt-server` and version is `Microsoft Terminal Services`.
 
@@ -24,7 +24,7 @@ nmap -sC -sV {target ip} -v
 
 I've helped myself with `tldr`. You can search how to execute proper command via `Internet` or some `AI` models. Even `xfreerdp -h` would help. OR MAYBE YOU DON'T HAVE TO BECAUSE YOU'LL FIND IT HERE.
 
-![tldr](explosiontldr.png)
+![tldr](./Screenshots/explosiontldr.png)
 
 Type:
 
@@ -32,23 +32,23 @@ Type:
 xfreerdp /v:{target ip} /u:Administrator /cert:ignore
 ```
 
-![xfreerdp](explosionxfreerdp.png)
+![xfreerdp](./Screenshots/explosionxfreerdp.png)
 
 In our case, the `Administrator` account has not any `password` set. We can hit `Enter` to continue without it.
 
 `RDP` window opens up.
 
-![rdp](explosionrdp.png)
+![rdp](./Screenshots/explosionrdp.png)
 
 ### Get the flag
 
 The flag is on the desktop. Just open `flag.txt` file.
 
-![flag](explosionflag.png)
+![flag](./Screenshots/explosionflag.png)
 
 ### Paste the flag
 
-![pwned](explosionpwned.png)
+![pwned](./Screenshots/explosionpwned.png)
 
 ## Answers
 
