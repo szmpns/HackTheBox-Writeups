@@ -1,6 +1,6 @@
-# Sequel      
+# Crocodile      
 
-![Sequel](./Screenshots/crocodilelogo.png)
+![Crocodile](./Screenshots/crocodilelogo.png)
 
 ## Solution
 
