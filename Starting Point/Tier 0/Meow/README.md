@@ -1,6 +1,6 @@
 # Meow      
 
-![meow](meowlogo.png)
+![meow](./Screenshots/meowlogo.png)
 
 ## Solution
 
@@ -8,7 +8,7 @@
 
 When you want to test your connection to the target you can simply ping it:
 
-![ping](meowping.png)
+![ping](./Screenshots/meowping.png)
 
 ### Scan with nmap
 
@@ -18,7 +18,7 @@ Type:
 nmap -sV {target ip} -v
 ```
 
-![nmap](meownmap.png)
+![nmap](./Screenshots/meownmap.png)
 
 Port 23/tcp is open. The service is telnet.
 
@@ -32,14 +32,14 @@ telnet {target ip}
 
 Use `root` as Meow login.
 
-![telnet](meowtelnet.png)
+![telnet](./Screenshots/meowtelnet.png)
 
 ### Take the ls + cat
 
-![ls+cat](meowlscat.png)
+![ls+cat](./Screenshots/meowlscat.png)
 
 
-![pwned](meowpwned.png)
+![pwned](./Screenshots/meowpwned.png)
 
 ## Answers
 
