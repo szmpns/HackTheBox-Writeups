@@ -1,6 +1,6 @@
 # Synced      
 
-![Synced](syncedlogo.png)
+![Synced](./Screenshots/syncedlogo.png)
 
 ## Solution
 
@@ -12,7 +12,7 @@ Type:
 nmap -sC -sV {target ip} -v
 ```
 
-![nmap](syncednmap.png)
+![nmap](./Screenshots/syncednmap.png)
 
 Port 873/tcp is open. Service is `rsync` and protocol version is `31`.
 
@@ -20,7 +20,7 @@ Port 873/tcp is open. Service is `rsync` and protocol version is `31`.
 
 We want to list all the available directories.
 
-![rsync](syncedrsync.png)
+![rsync](./Screenshots/syncedrsync.png)
 
 To do it, we'll use:
 
@@ -28,7 +28,7 @@ To do it, we'll use:
 rsync --list-only {target ip}::
 ```
 
-![rsync](syncedrsync2.png)
+![rsync](./Screenshots/syncedrsync2.png)
 
 Now, let's see what the public contains:
 
@@ -36,7 +36,7 @@ Now, let's see what the public contains:
 rsync --list-only {target ip}::public
 ```
 
-![rsync](syncedrsync3.png)
+![rsync](./Screenshots/syncedrsync3.png)
 
 ### Get the flag
 
@@ -46,13 +46,13 @@ To do it, we have to paste:
 rsync {target ip}::public/flag.txt {prefered name to your file}.txt
 ```
 
-![flag](syncedflag.png)
+![flag](./Screenshots/syncedflag.png)
 
 Done.
 
 ### Paste the flag
 
-![pwned](syncedpwned.png)
+![pwned](./Screenshots/syncedpwned.png)
 
 ## Answers
 
