@@ -1,6 +1,6 @@
 # Fawn      
 
-![Fawn](fawnlogo.png)
+![Fawn](./Screenshots/fawnlogo.png)
 
 ## Solution
 
@@ -12,7 +12,7 @@ Type:
 nmap -sC -sV {target ip} -v
 ```
 
-![nmap](fawnnmap.png)
+![nmap](./Screenshots/fawnnmap.png)
 
 Port 21/tcp is open. The service is ftp. Version vsftpd 3.0.3.
 
@@ -30,7 +30,7 @@ Use `Anonymous` as name.
 
 When it asks you to specify the password just press `enter`.
 
-![ftp](fawnftp.png)
+![ftp](./Screenshots/fawnftp.png)
 
 ### Get the flag
 
@@ -44,19 +44,19 @@ Go with:
 get flag.txt
 ```
 
-![get](fawnget.png)
+![get](./Screenshots/fawnget.png)
 
 ### ls and cat
 
 You can leave `ftp` by just simply using `Ctrl + d` combination or open new terminal window.
 
-![ls+cat](fawnlscat.png)
+![ls+cat](./Screenshots/fawnlscat.png)
 
 Flag is there. Enjoy.
 
 ### Paste the flag
 
-![pwned](fawnpwned.png)
+![pwned](./Screenshots/fawnpwned.png)
 
 ## Answers
 
