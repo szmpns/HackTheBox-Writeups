@@ -1,6 +1,6 @@
 # Mongod      
 
-![Mongod](mongodlogo.png)
+![Mongod](./Screenshots/mongodlogo.png)
 
 ## Solution
 
@@ -12,7 +12,7 @@ Type:
 nmap -p- -sV {target ip} -v
 ```
 
-![nmap](mongodnmap.png)
+![nmap](./Screenshots/mongodnmap.png)
 
 Port 22/tcp is open. Service is `ssh`, version `OpenSSH 8.2p1` (Ubuntu 4ubuntu0.5) on `Ubuntu Linux` (protocol 2.0).
 
@@ -28,7 +28,7 @@ Type:
 mongo {target ip}
 ```
 
-![mongo](mongomongo.png)
+![mongo](./Screenshots/mongomongo.png)
 
 As we are in, we want to see the databases present.
 
@@ -38,7 +38,7 @@ Type:
 show dbs
 ```
 
-![mongo](mongomongo2.png)
+![mongo](./Screenshots/mongomongo2.png)
 
 Then:
 
@@ -46,7 +46,7 @@ Then:
 use sensitive_information
 ```
 
-![mongo](mongomongo3.png)
+![mongo](./Screenshots/mongomongo3.png)
 
 Next:
 
@@ -54,7 +54,7 @@ Next:
 show collections
 ```
 
-![mongo](mongomongo4.png)
+![mongo](./Screenshots/mongomongo4.png)
 
 ### Get the flag
 
@@ -63,7 +63,7 @@ Flag is there. Now paste:
 ```
 db.flag.find()
 ```
-![flag](mongoflag.png)
+![flag](./Screenshots/mongoflag.png)
 
 or you can paste:
 
@@ -73,13 +73,13 @@ db.flag.find().pretty()
 
 to have an even nicer output.
 
-![flag](mongoflag2.png)
+![flag](./Screenshots/mongoflag2.png)
 
 You found the flag. Cheers.
 
 ### Paste the flag
 
-![pwned](mongodpwned.png)
+![pwned](./Screenshots/mongodpwned.png)
 
 ## Answers
 
