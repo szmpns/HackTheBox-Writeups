@@ -78,7 +78,7 @@ In the virtual-hosted style, the bucket name is used as a subdomain of `s3.amazo
 
 `S3` subdomain might be useful for us. Let's add it into `/etc/hosts` file.
 
-This time we will to this by typing:
+This time, we will do this by typing:
 
 ```
 echo "{target ip} s3.thetoppers.htb" | sudo tee -a /etc/hosts
