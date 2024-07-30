@@ -304,7 +304,7 @@ Final payload:
 {{/with}}
 ```
 
-![flag](./Screenshots/ignitionflag3.png)
+![flag](./Screenshots/bikeflag3.png.png)
 
 ### Paste the flag
 
