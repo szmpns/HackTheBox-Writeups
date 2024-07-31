@@ -118,7 +118,7 @@ However, we cannot access it from `ssh` service.
 
 Since we lack administrative privileges, we cannot do much. The service with the flag is likely hidden `locally` on the target machine, and the required tool isn't installed. Solution is `port-forwarding` or `tunneling` using SSH.
 
-`Tunneling`, or `port forwarding`, allows secure data transfer between a local and a remote machine through an encrypted SSH connection. The command `ssh -L 1337:localhost:22 user@example.com` sets up a local port forwarding. It binds local port 1337 to the remote machine's port 22 (SSH port). When you connect to `localhost` on port 1337, the traffic is securely tunneled to `remote.example.com`'s SSH service on port 22. This can be used to access services on the remote machine that are not directly accessible from your local machine. It ensures that data sent between the local and remote machines is encrypted, enhancing security. This method is useful for bypassing firewalls and accessing remote services securely.
+`Tunneling`, or `port forwarding`, allows secure data transfer between a local and a remote machine through an encrypted SSH connection. The command `ssh -L 1337:localhost:22 user@example.com` sets up a local port forwarding. It binds local port 1337 to the remote machine's port 22 (SSH port). When you connect to `localhost` on port 1337, the traffic is securely tunneled to `example.com`'s SSH service on port 22. This can be used to access services on the remote machine that are not directly accessible from your local machine. It ensures that data sent between the local and remote machines is encrypted, enhancing security. This method is useful for bypassing firewalls and accessing remote services securely.
 
 Let's do it. Type:
 
