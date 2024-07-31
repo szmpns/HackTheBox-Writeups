@@ -66,7 +66,7 @@ In `Manage Jenkins` section there is `Script Console`.
 
 ![login](./Screenshots/pennylogin3.png)
 
-`Jenkins Script Console` is a powerful feature in `Jenkins`, which is a popular open-source automation server used for continuous integration and continuous delivery (CI/CD). The `Script Console` allows administrators to execute Groovy scripts directly within the `Jenkins` environment. This feature provides a way to automate and manage `Jenkins` instances programmatically. Using the `Script Console`, administrators can perform complex automation tasks and administrative actions by leveraging Groovy, a scripting language that is similar to Java but more concise and flexible. The scripts have direct access to the Jenkins API, allowing interaction with all aspects of the `Jenkins` server, such as job configurations, build triggers, and system settings. Commands entered into the `Script Console` are executed in real-time, making it a powerful tool for immediate changes and troubleshooting.
+`Jenkins Script Console` is a powerful feature in `Jenkins`, which is a popular open-source automation server used for continuous integration and continuous delivery (CI/CD). The `Script Console` allows administrators to execute `Groovy` scripts directly within the `Jenkins` environment. This feature provides a way to automate and manage `Jenkins` instances programmatically. Using the `Script Console`, administrators can perform complex automation tasks and administrative actions by leveraging `Groovy`, a scripting language that is similar to Java but more concise and flexible. The scripts have direct access to the Jenkins API, allowing interaction with all aspects of the `Jenkins` server, such as job configurations, build triggers, and system settings. Commands entered into the `Script Console` are executed in real-time, making it a powerful tool for immediate changes and troubleshooting.
 
 Given our access to this, we can try to execute a command that will give us a `reverse shell` back to our local machine.
 
@@ -89,6 +89,8 @@ ip a | grep tun0
 If you have it, paste the `ip address` in the `ip` box and the port number you have selected in the `Port` box.
 
 ![revshell](./Screenshots/pennync2.png)
+
+Remember to select `Groovy`.
 
 It should look like this:
 
