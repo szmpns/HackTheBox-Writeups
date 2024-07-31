@@ -72,6 +72,8 @@ Given our access to this, we can try to execute a command that will give us a `r
 
 ### Reverse Shell and Netcat 
 
+A `reverse shell` is a method used by attackers to gain remote access to a target machine. In this setup, the target machine initiates a connection back to the attacker's machine, which is listening for incoming connections. This allows the attacker to execute commands on the target machine remotely. `Reverse shells` are often used to bypass firewalls and security measures, as many networks allow outgoing connections, making it easier for the attacker to establish a connection without being blocked. This technique is commonly employed in hacking and penetration testing to control compromised systems.
+
 To create `reverse shell` I almost always use this site: https://www.revshells.com/
 
 To do this, we need `ip address` of our `tun0` interface as we are connected through VPN.
