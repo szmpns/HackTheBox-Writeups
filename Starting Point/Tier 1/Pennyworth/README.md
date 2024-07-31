@@ -122,7 +122,7 @@ Finally, we can execute our reverse shell command.
 
 ![revshell](./Screenshots/pennync3.png)
 
-Paste it into ` Script Console` and press `Run`.
+Paste it into `Script Console` and press `Run`.
 
 Now we can go back to our `netcat` listener. We should successfully connect.
 
