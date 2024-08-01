@@ -41,7 +41,7 @@ This command lists the available shared resources (such as files and printers) o
 
 Failed attempt.
 
-Let's proceeded to authenticate as the `Administrator` user in order to attempt a passwordless login. 
+Let's proceed to authenticate as the `Administrator` user in order to attempt a passwordless login. 
 
 We are trying that because `Administrator` account is the high-privilege standard account for `Windows` operating systems.
 
