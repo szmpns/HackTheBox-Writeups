@@ -153,7 +153,7 @@ File is downloaded, now type:
 python3 -m http.server 80
 ```
 
-Remember to run the server in the directory where `nc.exe` file is present.
+Remember to run the server in the directory where `nc64.exe` file is present.
 
 ![shell](./Screenshots/archetypeshell2.png)
 
