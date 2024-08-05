@@ -331,7 +331,7 @@ ConsoleHost_history.txt
 
 psexec.py
 
-### Submit root flag
+### Submit user flag
 
 Long one.
 
