@@ -443,9 +443,11 @@ This command outputs the current `PATH` to verify that `/tmp` is now at the begi
 #### Summary
 By placing a malicious script named `cat` in the `/tmp` directory and modifying the `PATH` environment variable, any call to `cat` will use this malicious script instead of the legitimate `cat` command. This is an attempt to exploit a vulnerability in a program that does not specify the full path to the `cat` command, potentially granting a shell with elevated privileges if the original program runs with higher privileges.
 
+![PE](./Screenshots/oopsiepriv5.png)
+
 Now is finally time to execute the `bugtracker`.
 
-![PE](./Screenshots/oopsiepriv5.png)
+![PE](./Screenshots/oopsiepriv6.png)
 
 Boom. We are `root`.
 
