@@ -24,7 +24,7 @@ nmap -sC -sV {target ip} -v
 
 `80/tcp (HTTP)` - This port is used by the `Hypertext Transfer Protocol (HTTP)`, which is the foundation of data communication for the World Wide Web. It is commonly used for serving web pages and handling web traffic between a client (such as a web browser) and a web server.
 
-After pasting http://{target ip}/ into the browser we can see website.
+After pasting `http://{target ip}/` into the browser we can see website.
 
 ![web](./Screenshots/oopsieweb.png)
 
@@ -295,7 +295,7 @@ Go to `netcat` tab in your terminal and you should see this:
 
 ![revshell](./Screenshots/oopsierevshell2.png)
 
-If you need, you can stabilize your `shell`. I modified one of payloads (from this link: 
+If you need, you can stabilize your `shell` - I modified one of payloads (from this link: 
 https://sushant747.gitbooks.io/total-oscp-guide/content/spawning_shells.html
 ) and it should work:
 
@@ -303,11 +303,11 @@ https://sushant747.gitbooks.io/total-oscp-guide/content/spawning_shells.html
 python3 -c 'import pty; pty.spawn("/bin/sh")'
 ```
 
+Just `paste it` and press `enter`.
+
 #### Disclaimer
 
-In case your shell isn't working, netcat did not respond, your shell might have been deleted. Just upload it again.
-
-https://sushant747.gitbooks.io/total-oscp-guide/content/spawning_shells.html
+In case your shell isn't working, netcat did not respond, your shell might have been deleted. Just upload it again in `Uploads` section.
 
 ### Get the user flag
 
@@ -315,7 +315,7 @@ https://sushant747.gitbooks.io/total-oscp-guide/content/spawning_shells.html
 
 ![flag](./Screenshots/oopsieuserflag.png)
 
-### Page search
+### System search
 
 It's time to look around the system.
 
