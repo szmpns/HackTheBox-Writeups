@@ -183,6 +183,10 @@ Let's paste something into `search bar`.
 
 We can see that the `URL` query contains a variable called `$search`, which is responsible for searching through the catalog.
 
+![web](./Screenshots/vaccinemegacorp4.png)
+
+We are going to see if it's `SQL injectable`.
+
 ### SQLmap
 
 `SQLMap` is an open-source `penetration testing tool` that automates the process of detecting and exploiting `SQL injection vulnerabilities` in `web applications`. It features a powerful detection engine, numerous niche features for the ultimate `penetration tester`, and a broad range of switches from database fingerprinting to data retrieval and accessing the underlying file system. `SQLMap` supports various database management systems, including `MySQL`, `PostgreSQL`, `Oracle`, `Microsoft SQL Server`, and many others.
