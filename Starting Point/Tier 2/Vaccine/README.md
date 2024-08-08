@@ -363,12 +363,6 @@ Type:
 ssh postgres@{target ip}
 ```
 
-I tried to access `root` directory as we already heave `user's` flag.
-
-![SSH](./Screenshots/oopsiessh.png)
-
-We cannot do that. We need to perform `Privilege Escalation` on the `robert` account.
-
 ### Privilege Escalation
 
 When we are `in` let's hit:
