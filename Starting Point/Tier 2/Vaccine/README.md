@@ -405,9 +405,11 @@ and then:
 :shell
 ```
 
+![PE](./Screenshots/vaccinepriv6.png)
+
 Boom. We are `root`.
 
-![PE](./Screenshots/vaccinepriv6.png)
+![PE](./Screenshots/vaccinepriv7.png)
 
 ### Get the root flag
 
