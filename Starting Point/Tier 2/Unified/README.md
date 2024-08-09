@@ -63,7 +63,7 @@ The vulnerability discussed in this article is related to a new discovery in `Ub
 
 ### Burpsuite
 
-The article's `Exploitation` section explains that you need to insert your `payload` into the `remember` parameter. Since the `POST` data is sent as a `JSON` object and the `payload` includes brackets `{}`, you must wrap the payload in quotes to ensure it is treated as a string rather than another `JSON` object.
+The article's `Exploitation` section explains that you need to insert your `payload` into the `remember` parameter. Since the `POST` data is sent as a `JSON` object and the `payload` includes brackets `{}`, we must wrap the payload in quotes to ensure it is treated as a string rather than another `JSON` object.
 
 Let's intercept the `login request`:
 
