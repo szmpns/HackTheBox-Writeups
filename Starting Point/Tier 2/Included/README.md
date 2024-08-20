@@ -352,7 +352,7 @@ and provide the password.
 
 ![flag](./Screenshots/includeduserflag4.png)
 
-#### Finally let's get the mike's flag
+#### Finally, let's get the mike's flag
 
 ![flag](./Screenshots/includeduserflag5.png)
 
@@ -385,7 +385,7 @@ Now, we will transfer `alpine-v3.13-x86_64-20210218_0139.tar.gz` file to the tar
 
 ### Python server
 
-Set up `Python3` server.
+Set up `Python3` `http` server.
 
 ```
 python3 -m http.server 80
