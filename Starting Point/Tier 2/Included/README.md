@@ -20,8 +20,6 @@ nmap -sC -sV {target ip} -v
 
 ![nmap](./Screenshots/includednmap.png)
 
-Here are the descriptions for the open ports shown in the screenshots:
-
 #### **80/tcp (HTTP)**
 
 This port is used by the `Apache HTTP Server`, specifically version 2.4.29, which is running on an `Ubuntu` system. The Apache server is responsible for serving web pages to clients and supports standard HTTP methods like `GET`, `HEAD`, `POST`, and `OPTIONS`.
