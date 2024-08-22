@@ -135,7 +135,7 @@ Let's save Daniel's `SSH` `private key`.
 
 ### SSH
 
-Time to connect to teh system via `SSH`.
+Time to connect to the system via `SSH`.
 
 ```
 tldr ssh
