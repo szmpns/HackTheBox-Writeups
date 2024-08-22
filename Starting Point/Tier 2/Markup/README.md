@@ -125,7 +125,7 @@ In the source code of the page, we can see that it was `Modified by Daniel`.
 
 From `Jumpcloud` article we know that `SSH key` should be in `$HOME/.ssh/id_rsa` path for `private key` and `$HOME/.ssh/id_rsa.pub` for `public key`.
 
-For `Windows` in our example it would be `c:/users/Daniel/.ssh/id_rsa` and `c:/users/Daniel/.ssh/id_rsa.pub`
+For `Windows` in our example it would be `c:/users/Daniel/.ssh/id_rsa` for `private key` and `c:/users/Daniel/.ssh/id_rsa.pub` for `public key`.
 
 ![xml](./Screenshots/markupxml6.png)
 
