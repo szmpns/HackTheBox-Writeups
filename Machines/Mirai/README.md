@@ -1,6 +1,6 @@
 # Mirai      
 
-![Mirai](./Screenshots/)
+![Mirai](./Screenshots/mirailogo.png)
 
 ## Solution
 
@@ -152,7 +152,7 @@ At first I tried to move `damnit.txt` to my machine.
 I pasted:
 
 ```
-scp pi@10.10.10.48:/media/usbstick/damnit.txt .
+scp pi@{target ip}:/media/usbstick/damnit.txt .
 ```
 
 to get it.
