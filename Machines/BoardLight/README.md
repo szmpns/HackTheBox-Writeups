@@ -1,6 +1,6 @@
 # BoardLight      
 
-![BoardLight](./Screenshots/)
+![BoardLight](./Screenshots/boardlightlogo.png)
 
 ## Solution
 
@@ -364,4 +364,4 @@ GGs.
 
 ### Paste the flags
 
-![pwned](./Screenshots/)
+![pwned](./Screenshots/boardlightpwned.png)
