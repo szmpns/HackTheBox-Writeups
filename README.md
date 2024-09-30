@@ -9,3 +9,4 @@
 | [Active](./Machines/Active/) | Windows         | Nmap, smbclient, gpp-decrypt, Impacket, John the Ripper, Metasploit | SMB enumeration techniques, Group Policy Preferences enumeration and exploitation, Identification and exploitation of Kerberoastable accounts |
 | PermX | Linux            | TBA        |  This machine is still active. The writeup will be available once the machine is retired. |
 | [BoardLight](./Machines/BoardLight) | Linux            | Nmap, Ffuf, Netcat, Git, Python3, SSH, Bash | Dolibarr Exploitation, SUID Exploitation      |
+| GreenHorn | Linux            | TBA             | This machine is still active. The writeup will be available once the machine is retired. |
