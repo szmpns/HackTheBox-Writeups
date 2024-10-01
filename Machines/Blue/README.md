@@ -62,7 +62,7 @@ smbclient \\\\{target ip}\\Users --no-pass
 ![SMB](./Screenshots/bluesmb2.png)
 ![SMB](./Screenshots/bluesmb3.png)
 
-I searched all of this using tools and there was nothing there that could really help.
+I searched all of this using tools and there was nothing that could really help.
 
 Time to look for some **exploit**.
 
