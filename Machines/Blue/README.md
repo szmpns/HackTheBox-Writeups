@@ -154,7 +154,7 @@ and press `Enter`.
 
 We have a shell.
 
-*If you want to have `Windows` shell type `shell` and press enter. I did it only after capturing the flags because I wanted to navigate through system by `Unix` commands as `Metasploit` makes it possible.*
+*If you want to have `Windows` shell type `shell` and press enter. I did it only to execute `whoami` command and then I hit `exit` as I wanted to navigate through system by `Unix` commands as `Metasploit` makes it possible.*
 
 ![whoami](./Screenshots/bluewhoami.png)
 
