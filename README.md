@@ -11,3 +11,4 @@
 | [BoardLight](./Machines/BoardLight) | Linux            | Nmap, Ffuf, Netcat, Git, Python3, SSH, Bash | Dolibarr Exploitation, SUID Exploitation      |
 | GreenHorn | Linux            | TBA             | This machine is still active. The writeup will be available once the machine is retired. |
 | [Blue](./Machines/Blue) | Windows         | Nmap, smbclient, crackmapexec, SearchSploit, Metasploit | Identifying Windows targets using SMB, Exploit modification  |
+| [Legacy](./Machines/Legacy) | Windows         | Nmap, crackmapexec, SearchSploit, Metasploit   | Identifying vulnerable services, Exploiting SMB          |
