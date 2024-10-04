@@ -178,7 +178,7 @@ Now, let's transfer it to the **Cap(SSH)** shell.
 
 #### **Disclaimer**
 
-*Remember to do all the operations from the same directory form where you have connected to the **SSH**. It is absolutely necessary. The linpeas.sh file also should be in this exact path*
+*Remember to do all the operations from the same directory from which you have connected to the **SSH**. It is absolutely necessary. The linpeas.sh file also should be in this exact path*
 
 We have to set up **Python HTTP server**:
 
@@ -200,7 +200,7 @@ We have it, server confirms it.
 
 ![PE](./Screenshots/cappe5.png)
 
-Let's give the script all permissions and run it.
+Let's give the script all permissions.
 
 ```
 chmod +x linpeas.sh
