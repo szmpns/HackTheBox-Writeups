@@ -26,13 +26,13 @@ nmap -sC -sV {target ip} -v
 Here are the descriptions of the open ports shown in the screenshots:
 
 ### **21/tcp (FTP)**
-The **FTP** service running on this port uses **vsftpd 3.0.3**. This service can be used for transferring files. It may allow anonymous login or require credentials for access. It’s worth checking if anonymous access is enabled or if there are weak credentials.
+The **FTP** service running on this port uses **vsftpd 3.0.3**. This service can be used for transferring files. It may allow anonymous login or require credentials for access.
 
 ### **22/tcp (SSH)**
-An **OpenSSH** service is running, version 8.2p1 on Ubuntu. This service is used for secure remote login. The presence of SSH keys indicates that this service likely requires proper authentication, typically via key-based access. Further enumeration can include testing for weak or default SSH credentials.
+An **OpenSSH** service is running, version 8.2p1 on Ubuntu. This service is used for secure remote login. The presence of SSH keys indicates that this service likely requires proper authentication, typically via key-based access.
 
 ### **80/tcp (HTTP)**
-The server is running a web application served by **gunicorn**. The web interface is identified as a **Security Dashboard**, accessible over HTTP. A closer inspection of the content may reveal vulnerabilities or sensitive information. Exploring the website further or using tools like **Nikto** for web vulnerability scanning could provide insights into potential exploits.
+The server is running a web application served by **gunicorn**. The web interface is identified as a **Security Dashboard**, accessible over HTTP.
 
 ### IDOR
 
