@@ -96,7 +96,26 @@ After pressing `Cancel` in the login panel it causes an **401 Unauthorized** err
 
 #### 4
 
-For **Tomcat** versions **older than 6**, it's possible to enumerate usernames through **Metasploit**.
+For **Tomcat** versions **older than 6**, it's possible to enumerate credentials through **Metasploit**.
+
+```
+msfconsole
+```
+
+```
+use scanner/http/tomcat_mgr_login
+```
+
+```
+set rhost {target ip}
+```
+
+```
+exploit
+```
+
+![web](./Screenshots/jerrymetasploit.png)
+![web](./Screenshots/jerrymetasploit2.png)
 
 Read more:
 
@@ -134,7 +153,7 @@ We know what to do, it's time to create a reverse shell.
 
 ### Reverse shell
 
-Now, the **hacktricks** article I mentioned earlier will be very useful.
+Now, the **hacktricks** article I have mentioned earlier will be again very useful.
 
 ```
 https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/tomcat
