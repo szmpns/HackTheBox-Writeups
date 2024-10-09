@@ -205,11 +205,11 @@ We are in and we are `nt authority\system`.
 
 ![shell](./Screenshots/jerryshell3.png)
 
-`nt authority\system` is **the highest privilege level** account in a `Windows` systems. This user has full control over the operating system, meaning we have access to all resources and can perform any administrative operations.
+`nt authority\system` is **the highest privilege level** account in **Windows** systems. This user has full control over the operating system, meaning we have access to all resources and can perform any administrative operations.
 
 We do not have to escalate privileges. It means, we can easily access all flags at this point. 
 
-If you don't want to see the second method and you want to finish the challange feel free to skip to the [Get the flags](#get-the-flags) section.
+If you don't want to see the second method and you want to finish the challenge feel free to skip to the [Get the flags](#get-the-flags) section.
 
 ### (2) MSFVenom + Netcat
 
@@ -245,7 +245,7 @@ Now, paste inot the browser:
 http://10.10.10.95:8080/{name of your .war file}
 ```
 
-and you should have a shell as `nt authority\system` in your Netcat tab.
+and you should have a shell as `nt authority\system` in your **Netcat** tab.
 
 ![shell](./Screenshots/jerryshell8.png)
 
