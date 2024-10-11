@@ -17,4 +17,11 @@
 
 | Machine Name        | Operating System | Tools Used                        | Skills Learned                 |
 |---------------------|------------------|-----------------------------------|--------------------------------|
-| [Meow](./Starting%20Point/Tier%200/Meow/) | Linux            | ping, Nmap, Telnet | Performing port scanning and service identification using Nmap, Exploiting Telnet|
+| [Meow](./Starting%20Point/Tier%200/Meow/) | Linux | ping, Nmap, Telnet | Performing port scanning and service identification using Nmap, Exploiting Telnet|
+| [Fawn](./Starting%20Point/Tier%200/Fawn/) | Linux | Nmap, FTP | Exploiting anonymous FTP login |
+| [Dancing](./Starting%20Point/Tier%200/Dancing/) | Windows | Nmap, smbclient | Enumerating SMB shares |
+| [Redeemer](./Starting%20Point/Tier%200/Redeemer/) | Linux | Nmap, redis-cli | Interacting with and enumerating a Redis server |
+| [Explosion](./Starting%20Point/Tier%200/Explosion/) | Windows | Nmap, xfreerdp | Connecting to a remote desktop using xfreerdp |
+| [Preignition](./Starting%20Point/Tier%200/Preignition/) | Linux | Nmap, Gobuster | Performing directory brute-forcing using Gobuster, Identifying and exploiting default web credentials |
+| [Mongod](./Starting%20Point/Tier%200/Mongod/) | Linux | Nmap, mongo | Connecting to and interacting with a MongoDB instance |
+| [Synced](./Starting%20Point/Tier%200/Synced/) | Linux | Nmap, rsync | Enumerating and downloading files from rsync shares |
