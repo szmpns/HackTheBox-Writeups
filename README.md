@@ -1,5 +1,3 @@
-# Starting Point
-
 # Machines
 
 | Machine Name        | Operating System | Tools Used                        | Skills Learned                 |
@@ -14,3 +12,9 @@
 | [Legacy](./Machines/Legacy) | Windows         | Nmap, crackmapexec, SearchSploit, Metasploit   | Identifying vulnerable services, Exploiting SMB          |
 | [Cap](./Machines/Cap/) | Linux            | Nmap, WireShark, FTP, SSH, Python, wget, linpeas | IDOR, Exploiting Linux capabilities   |
 | [Jerry](./Machines/Jerry) | Windows         | Nmap, Python3, Metasploit, MSFVenom, Netcat| Tomcat exploitation using multiple approaches, Writing scripts to brute-force credentials, Custom war file payload creation |
+
+# Starting Point
+
+| Machine Name        | Operating System | Tools Used                        | Skills Learned                 |
+|---------------------|------------------|-----------------------------------|--------------------------------|
+| [Meow](./Starting%20Point/Tier%200/Meow/) | Linux            | ping, Nmap, Telnet | Performing port scanning and service identification using Nmap, Exploiting Telnet|
