@@ -25,3 +25,13 @@
 | [Preignition](./Starting%20Point/Tier%200/Preignition/) | Linux | Nmap, Gobuster | Performing directory brute-forcing using Gobuster, Identifying and exploiting default web credentials |
 | [Mongod](./Starting%20Point/Tier%200/Mongod/) | Linux | Nmap, mongo | Connecting to and interacting with a MongoDB instance |
 | [Synced](./Starting%20Point/Tier%200/Synced/) | Linux | Nmap, rsync | Enumerating and downloading files from rsync shares |
+| [Appointment](./Starting%20Point/Tier%201/Appointment/) | Linux | Nmap, BurpSuite | Performing SQL injection attack |
+| [Sequel](./Starting%20Point/Tier%201/Sequel/) | Linux | Nmap, MySQL | Interacting with a MySQL database using MySQL CLI |
+| [Crocodile](./Starting%20Point/Tier%201/Crocodile/) | Linux | Nmap, FTP, Gobuster| Gaining access to a system by combining FTP enumeration and directory brute-forcing |
+| [Responder](./Starting%20Point/Tier%201/Responder/) | Windows | Nmap, Responder, John the Ripper, evil-winrm | Exploiting Local File Inclusion (LFI) vulnerabilities, Capturing and cracking NTLMv2 hashes |
+| [Three](./Starting%20Point/Tier%201/Three/) | Linux | Nmap, WFuzz, awscli | Discovering and interacting with S3 buckets, Uploading and executing a PHP webshell |
+| [Ignition](./Starting%20Point/Tier%201/Ignition/) | Linux | Nmap, Gobuster, BurpSuite | Brute-forcing admin login credentials, Discovering hidden directories |
+| [Bike](./Starting%20Point/Tier%201/Bike/) | Linux | Nmap, Wappalyzer, BurpSuite | Exploiting Server-Side Template Injection (SSTI) vulnerabilities, Using Node.js globals to execute arbitrary system commands on the server |
+| [Funnel](./Starting%20Point/Tier%201/Funnel/) | Linux | Nmap, FTP, SSH, psql | SSH tunneling (local port forwarding), Interacting with a PostgreSQL database |
+| [Pennyworth](./Starting%20Point/Tier%201/Pennyworth/) | Linux | Nmap, BurpSuite, Netcat | Brute-forcing login credentials, Establishing a reverse shell |
+| [Tactics](./Starting%20Point/Tier%201/Tactics/) | Windows | Nmap, smbclient | Enumerating and extracting files from SMB shares |
