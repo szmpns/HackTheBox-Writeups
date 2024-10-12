@@ -10,7 +10,7 @@
 | GreenHorn | Linux            | TBA             | This machine is still active. The writeup will be available once the machine is retired. |
 | [Blue](./Machines/Blue) | Windows         | Nmap, smbclient, crackmapexec, SearchSploit, Metasploit | Identifying Windows targets using SMB, Exploit modification  |
 | [Legacy](./Machines/Legacy) | Windows         | Nmap, crackmapexec, SearchSploit, Metasploit   | Identifying vulnerable services, Exploiting SMB          |
-| [Cap](./Machines/Cap/) | Linux            | Nmap, WireShark, FTP, SSH, Python, wget, linpeas | IDOR, Exploiting Linux capabilities   |
+| [Cap](./Machines/Cap/) | Linux            | Nmap, WireShark, FTP, SSH, Python, Wget, LINpeas | IDOR, Exploiting Linux capabilities   |
 | [Jerry](./Machines/Jerry) | Windows         | Nmap, Python3, Metasploit, MSFVenom, Netcat| Tomcat exploitation using multiple approaches, Writing scripts to brute-force credentials, Custom war file payload creation |
 
 # Starting Point
