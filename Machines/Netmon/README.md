@@ -48,11 +48,11 @@ I attempted to login with default credentials but it didn't work.
 
 ![web](./Screenshots/netmonweb2.png)
 
-I even tried to brute-force the credentials with `BurpSUite`'s **Repeater** but it was also unsuccesfull.
+I even tried to brute-force the credentials with `BurpSuite`'s **Repeater** but it was also unsuccesfull.
 
 ### FTP
 
-From the **Nmap** scan we know that **FPT** is open and **Anonymous login** is allowed.
+From the **Nmap** scan we know that **FTP** is open and **Anonymous login** is allowed.
 
 Let's type:
 
@@ -60,7 +60,7 @@ Let's type:
 ftp {target ip}
 ```
 
-If it asks you about the *Name* type `Anonymous` and when it asks you about the *password*, just press `Enter`.
+If it asks you about the *Name* type `Anonymous` and when it asks you about the *Password*, just press `Enter`.
 
 ![FTP](./Screenshots/netmonftp.png)
 
@@ -142,13 +142,13 @@ and it says:
 
 An issue was discovered in **PRTG Network Monitor before 18.2.39**. An attacker who has access to the **PRTG System Administrator web console with administrative privileges** can exploit an OS command injection vulnerability (both on the server and on devices) by sending malformed parameters in sensor or notification management scenarios.
 
-Knowing that, we are going to use **Metasploit**. You can also copy this exploit:
+Knowing that, we are going to use **Metasploit**. You can also use this exploit:
 
 ```
 https://github.com/A1vinSmith/CVE-2018-9276?tab=readme-ov-file
 ```
 
-and use it as author says in `README`.
+and run it as author says in `README`.
 
 ### Metasploit
 
