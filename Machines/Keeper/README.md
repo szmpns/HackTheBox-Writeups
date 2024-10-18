@@ -187,7 +187,7 @@ I think it is.
 
 So, 
 
-*If we've already obtained the master password for **KeePass**, it means we can access all the stored credentials within the password database. This gives us full control over the contents, including usernames, passwords, and other sensitive data.*
+If we've already obtained the master password for **KeePass**, it means we can access all the stored credentials within the password database. This gives us full control over the contents, including usernames, passwords, and other sensitive data.
 
 ### keepassxc-cli
 
@@ -233,7 +233,7 @@ if you have already left.
 
 ![PE](./Screenshots/keeperpe8.png)
 
-This is PuTTY private key - `PuTTY-User-Key-File-3: ssh-rsa`.
+This is **PuTTY private key** - `PuTTY-User-Key-File-3: ssh-rsa`.
 
 **Save** your **PuTTY private key** into `.ppk` file.
 
