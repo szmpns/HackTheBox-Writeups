@@ -13,7 +13,7 @@
 | [Cap](./Machines/Cap/) | Linux            | Nmap, WireShark, FTP, SSH, Python, Wget, LINpeas | IDOR, Exploiting Linux capabilities   |
 | [Jerry](./Machines/Jerry) | Windows         | Nmap, Python3, Metasploit, MSFVenom, Netcat| Tomcat exploitation using multiple approaches, Writing scripts to brute-force credentials, Custom war file payload creation |
 | [Netmon](./Machines/Netmon/) | Windows | Nmap, FTP, Metasploit | Exploiting PRTG Network Monitor |
-| Keeper | Linux | TBA | TBA |
+| [Keeper](./Machines/Keeper/) | Linux | Nmap, SSH, Git, SCP, Python3, KeePassXC, PuTTYgen | Identifying vulnerabilities in Request Tracker, KeePass exploitation |
 
 # Starting Point
 
