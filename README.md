@@ -39,8 +39,8 @@
 | [Tactics](./Starting%20Point/Tier%201/Tactics/) | Windows | Nmap, smbclient | Enumerating and extracting files from SMB shares |
 | [Archetype](./Starting%20Point/Tier%202/Archetype/) | Windows | Nmap, smbclient, Impacket (mssqlclient), Powershell, Wget, Netcat, WinPEAS | Exploiting Microsoft SQL Server vulnerabilities, Using WinPEAS for privilege escalation |
 | [Oopsie](./Starting%20Point/Tier%202/Oopsie/) | Linux | Nmap, DirBuster, Gobuster, Netcat, SSH |  Cookie manipulation, Exploiting SUID binaries and PATH manipulation for root access |
-| [Vaccine](./Starting%20Point/Tier%202/Vaccine/) | Linux | TBA | TBA |
-| [Unified](./Starting%20Point/Tier%202/Unified/) | Linux | TBA | TBA |
-| [Included](./Starting%20Point/Tier%202/Included/) | Linux | TBA | TBA |
+| [Vaccine](./Starting%20Point/Tier%202/Vaccine/) | Linux | Nmap, FTP, John the Ripper, Hashcat, SQLmap, Netcat, vi | Password cracking with John the Ripper and Hashcat, Exploiting SQL injection vulnerabilities with SQLmap, Privilege escalation through configuration modification in `pg_hba.conf` and shell execution via vi |
+| [Unified](./Starting%20Point/Tier%202/Unified/) | Linux | Nmap, BurpSuite, tcpdump, rogue-jndi, Netcat, mkpasswd, mongo, SSH | Exploiting JNDI injection vulnerabilities in Java applications, Interacting with MongoDB to retrieve and manipulate user credentials |
+| [Included](./Starting%20Point/Tier%202/Included/) | Linux | Nmap, curl, TFTP, Netcat, lxc, Wget, Git, Python3 | Local File Inclusion (LFI) exploitation, LXD container privilege escalation |
 | [Markup](./Starting%20Point/Tier%202/Markup/) | Windows | TBA | TBA |
 | [Base](./Starting%20Point/Tier%202/Base/) | Linux | TBA | TBA |
