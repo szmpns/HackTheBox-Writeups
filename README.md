@@ -37,8 +37,8 @@
 | [Funnel](./Starting%20Point/Tier%201/Funnel/) | Linux | Nmap, FTP, SSH, psql | SSH tunneling (local port forwarding), Interacting with a PostgreSQL database |
 | [Pennyworth](./Starting%20Point/Tier%201/Pennyworth/) | Linux | Nmap, BurpSuite, Netcat | Brute-forcing login credentials, Establishing a reverse shell |
 | [Tactics](./Starting%20Point/Tier%201/Tactics/) | Windows | Nmap, smbclient | Enumerating and extracting files from SMB shares |
-| [Archetype](./Starting%20Point/Tier%202/Archetype/) | Windows | TBA | TBA |
-| [Oopsie](./Starting%20Point/Tier%202/Oopsie/) | Linux | TBA | TBA |
+| [Archetype](./Starting%20Point/Tier%202/Archetype/) | Windows | Nmap, smbclient, Impacket (mssqlclient), Powershell, Wget, Netcat, WinPEAS | Exploiting Microsoft SQL Server vulnerabilities, Using WinPEAS for privilege escalation |
+| [Oopsie](./Starting%20Point/Tier%202/Oopsie/) | Linux | Nmap, DirBuster, Gobuster, Netcat, SSH |  Cookie manipulation, Exploiting SUID binaries and PATH manipulation for root access |
 | [Vaccine](./Starting%20Point/Tier%202/Vaccine/) | Linux | TBA | TBA |
 | [Unified](./Starting%20Point/Tier%202/Unified/) | Linux | TBA | TBA |
 | [Included](./Starting%20Point/Tier%202/Included/) | Linux | TBA | TBA |
