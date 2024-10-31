@@ -14,6 +14,7 @@
 | [Jerry](./Machines/Jerry) | Windows         | Nmap, Python3, Metasploit, MSFVenom, Netcat| Tomcat exploitation using multiple approaches, Writing scripts to brute-force credentials, Custom war file payload creation |
 | [Netmon](./Machines/Netmon/) | Windows | Nmap, FTP, Metasploit | Exploiting PRTG Network Monitor |
 | [Keeper](./Machines/Keeper/) | Linux | Nmap, SSH, Git, SCP, Python3, KeePassXC, PuTTYgen | Identifying vulnerabilities in Request Tracker, KeePass exploitation |
+| [Knife](./Machines/Knife/) | Linux | Nmap, Wappalyzer, cURL, Git, Python3, Netcat | Identifying vulnerabilities in specific version of PHP and exploiting a backdoor for remote code execution (RCE), Utilizing the knife command for privilege escalation |
 
 # Starting Point
 
@@ -41,6 +42,6 @@
 | [Oopsie](./Starting%20Point/Tier%202/Oopsie/) | Linux | Nmap, DirBuster, Gobuster, Netcat, SSH |  Cookie manipulation, Exploiting SUID binaries and PATH manipulation for root access |
 | [Vaccine](./Starting%20Point/Tier%202/Vaccine/) | Linux | Nmap, FTP, John the Ripper, Hashcat, SQLmap, Netcat, vi | Password cracking with John the Ripper and Hashcat, Exploiting SQL injection vulnerabilities with SQLmap, Privilege escalation through configuration modification in `pg_hba.conf` and shell execution via vi |
 | [Unified](./Starting%20Point/Tier%202/Unified/) | Linux | Nmap, BurpSuite, tcpdump, rogue-jndi, Netcat, mkpasswd, mongo, SSH | Exploiting JNDI injection vulnerabilities in Java applications, Interacting with MongoDB to retrieve and manipulate user credentials |
-| [Included](./Starting%20Point/Tier%202/Included/) | Linux | Nmap, curl, TFTP, Netcat, lxc, Wget, Git, Python3 | Local File Inclusion (LFI) exploitation, LXD container privilege escalation |
+| [Included](./Starting%20Point/Tier%202/Included/) | Linux | Nmap, cURL, TFTP, Netcat, lxc, Wget, Git, Python3 | Local File Inclusion (LFI) exploitation, LXD container privilege escalation |
 | [Markup](./Starting%20Point/Tier%202/Markup/) | Windows | Nmap, BurpSuite, SSH, PowerShell, Wget, Python3, Netcat | XXE (XML External Entity) vulnerability exploitation, User privilege escalation using Windows services and scripts |
 | [Base](./Starting%20Point/Tier%202/Base/) | Linux | Nmap, strings, BurpSuite, Gobuster, Netcat, SSH, find | Bypassing authentication by manipulating request parameters, Finding file paths and utilizing LFI (Local File Inclusion) to access sensitive files, Privilege escalation through misconfigured binaries using find command to gain root access |
