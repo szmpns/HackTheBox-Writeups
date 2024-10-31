@@ -1,6 +1,6 @@
 # Knife      
 
-![Knife](./Screenshots/)
+![Knife](./Screenshots/knifelogo.png)
 
 ## Solution
 
@@ -191,4 +191,4 @@ We are `root` :)
 
 ### Paste the flags
 
-![pwned](./Screenshots/)
+![pwned](./Screenshots/knifepwned.png)
