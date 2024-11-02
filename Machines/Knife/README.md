@@ -131,7 +131,7 @@ and press `Enter`.
 ![PE](./Screenshots/knifepe3.png)
 
 
-In you **Netcat** tab you shuld have a shell.
+In your **Netcat** tab you should have a shell.
 
 ![PE](./Screenshots/knifepe4.png)
 
