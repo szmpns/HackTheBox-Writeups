@@ -20,7 +20,7 @@ nmap -sC -sV {target ip} -v
 
 ![nmap](./Screenshots/knifenmap.png)
 
-Here are the descriptions of the open ports shown in the screenshots:
+Here are the descriptions of the open ports shown in the screenshot:
 
 ### **22/tcp (SSH)**
 The **SSH** service is running **OpenSSH 8.2p1** on **Ubuntu**. This service enables secure remote access and uses **protocol version 2.0**. The scan reveals the server’s SSH host keys, including **RSA (3072-bit)**, **ECDSA (256-bit)**, and **ED25519 (256-bit)**, which are used for encryption and server authentication. The presence of these keys provides an indication of the security configuration for SSH on this system.
