@@ -15,6 +15,7 @@
 | [Netmon](./Machines/Netmon/) | Windows | Nmap, FTP, Metasploit | Exploiting PRTG Network Monitor |
 | [Keeper](./Machines/Keeper/) | Linux | Nmap, SSH, Git, SCP, Python3, KeePassXC, PuTTYgen | Identifying vulnerabilities in Request Tracker, KeePass exploitation |
 | [Knife](./Machines/Knife/) | Linux | Nmap, Wappalyzer, cURL, Git, Python3, Netcat | Identifying vulnerabilities in specific version of PHP and exploiting a backdoor for remote code execution (RCE), Utilizing the knife command for privilege escalation |
+| [Bashed](./Machines/Bashed/) | Linux | TBA | TBA |
 
 # Starting Point
 
