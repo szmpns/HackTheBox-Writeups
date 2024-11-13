@@ -5,7 +5,7 @@
 | [Lame](./Machines/Lame/) | Linux            | Nmap, FTP, SearchSploit, Metasploit, smbclient | Identifying vulnerable services, Exploiting Samba |
 | [Mirai](./Machines/Mirai/) | Linux            | Nmap, Gobuster, SSH, df, strings            | Identifying an IoT device, Forensic file recovery |
 | [Active](./Machines/Active/) | Windows         | Nmap, smbclient, gpp-decrypt, Impacket, John the Ripper, Metasploit | SMB enumeration techniques, Group Policy Preferences enumeration and exploitation, Identification and exploitation of Kerberoastable accounts |
-| [PermX](./Machines/PermX/) | Linux            | TBA        |  TBA  |
+| [PermX](./Machines/PermX/) | Linux            | Nmap, Ffuf, cURL, Git, Netcat, MySQL, SSH, openssl |  Leveraged Chamilo CVE-2023-4220 for remote code execution, Exploited ACL misconfiguration with a symbolic link to modify `/etc/passwd` and gain root access  |
 | [BoardLight](./Machines/BoardLight) | Linux            | Nmap, Ffuf, Netcat, Git, Python3, SSH, Bash | Dolibarr Exploitation, SUID Exploitation      |
 | GreenHorn | Linux            | TBA             | This machine is still active. The writeup will be available once the machine is retired. |
 | [Blue](./Machines/Blue) | Windows         | Nmap, smbclient, crackmapexec, SearchSploit, Metasploit | Identifying Windows targets using SMB, Exploit modification  |
