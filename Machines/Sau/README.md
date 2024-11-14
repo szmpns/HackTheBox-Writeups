@@ -139,7 +139,7 @@ Paste this into your browser.
 
 ![web](./Screenshots/sauweb6.png)
 
-Site is pretty poor, so I decided to search for `Maltrail (v0.53)` exploits in the Google.
+Site is pretty poor, so I decided to search for `Maltrail (v0.53)` exploits in the **Google**.
 
 I found that one and decided to use it. It looks perfect, just for us.
 
