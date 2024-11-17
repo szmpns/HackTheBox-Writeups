@@ -14,9 +14,10 @@
 | [Jerry](./Machines/Jerry) | Windows         | Nmap, Python3, Metasploit, MSFVenom, Netcat| Tomcat exploitation using multiple approaches, Writing scripts to brute-force credentials, Custom war file payload creation |
 | [Netmon](./Machines/Netmon/) | Windows | Nmap, FTP, Metasploit | Exploiting PRTG Network Monitor |
 | [Keeper](./Machines/Keeper/) | Linux | Nmap, SSH, Git, SCP, Python3, KeePassXC, PuTTYgen | Identifying vulnerabilities in Request Tracker, KeePass exploitation |
-| [Knife](./Machines/Knife/) | Linux | Nmap, Wappalyzer, cURL, Git, Python3, Netcat | Identifying vulnerabilities in specific version of PHP and exploiting a backdoor for remote code execution (RCE), Utilizing the knife command for privilege escalation |
+| [Knife](./Machines/Knife/) | Linux | Nmap, Wappalyzer, cURL, Git, Python3, Netcat, GTFOBins | Identifying vulnerabilities in specific version of PHP and exploiting a backdoor for remote code execution (RCE), Utilizing the knife command for privilege escalation |
 | [Bashed](./Machines/Bashed/) | Linux | Nmap, Gobuster, phpbash, Python, Netcat | Web shell exploitation by leveraging a pre-existing shell(phpbash), Privilege escalation through script modification and scheduled root execution |
 | Chemistry| Linux | TBA | This machine is still active. The writeup will be available once the machine is retired. |
+| [Sau](./Machines/Sau/) | Linux | Nmap, Git, Bash, Python3, Netcat, GTFOBins | SSRF exploitation using CVE-2023-27163, privilege escalation via systemctl using CVE-2023-26604 |
 
 # Starting Point
 
