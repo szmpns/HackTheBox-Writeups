@@ -7,7 +7,7 @@
 | [Active](./Machines/Active/) | Windows         | Nmap, smbclient, gpp-decrypt, Impacket, John the Ripper, Metasploit | SMB enumeration techniques, Group Policy Preferences enumeration and exploitation, Identification and exploitation of Kerberoastable accounts |
 | [PermX](./Machines/PermX/) | Linux            | Nmap, Ffuf, cURL, Git, Netcat, MySQL, SSH, openssl |  Leveraged Chamilo CVE-2023-4220 for remote code execution, Exploited ACL misconfiguration with a symbolic link to modify `/etc/passwd` and gain root access  |
 | [BoardLight](./Machines/BoardLight) | Linux            | Nmap, Ffuf, Netcat, Git, Python3, SSH, Bash | Dolibarr Exploitation, SUID Exploitation      |
-| GreenHorn | Linux            | TBA             | This machine is still active. The writeup will be available once the machine is retired. |
+| [GreenHorn](./Machines/GreenHorn) | Linux  | Nmap, Git/Gitea, hashid, passwordrecovery.io, Netcat, Python3, Depix       | Identifying sensitive files in Gitea repository, Cracking SHA-512 password hash, Exploiting Pluck CMS (CVE-2023-50564) for RCE, Reverse shell via crafted ZIP upload, Recovering obfuscated password from .pdf using Depix |
 | [Blue](./Machines/Blue) | Windows         | Nmap, smbclient, crackmapexec, SearchSploit, Metasploit | Identifying Windows targets using SMB, Exploit modification  |
 | [Legacy](./Machines/Legacy) | Windows         | Nmap, crackmapexec, SearchSploit, Metasploit   | Identifying vulnerable services, Exploiting SMB          |
 | [Cap](./Machines/Cap/) | Linux            | Nmap, WireShark, FTP, SSH, Python, Wget, LINpeas | IDOR, Exploiting Linux capabilities   |
