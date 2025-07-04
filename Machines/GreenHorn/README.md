@@ -1,6 +1,6 @@
 # GreenHorn      
 
-![GreenHorn](./Screenshots/)
+![GreenHorn](./Screenshots/greenhornlogo.png)
 
 ## Solution
 
@@ -180,8 +180,6 @@ Go to: https://www.revshells.com/ and provide your `tun0 ip` and `port` you want
 
 Copy, and save it as `.php` file.
 
-Save it.
-
 Now type:
 
 ```
@@ -319,7 +317,9 @@ Now, you can join via **SSH** by typing:
 ssh root@{target ip}
 ```
 
-and then providing that password or if your **reverse shell** shell is still open just type in it:
+and then providing that password.
+
+If your **reverse shell** shell is still open, you can also just type in it:
 
 ```
 su root
