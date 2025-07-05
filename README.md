@@ -19,7 +19,7 @@
 | Chemistry| Linux | TBA | This machine is still active. The writeup will be available once the machine is retired. |
 | [Sau](./Machines/Sau/) | Linux | Nmap, Git, Bash, Python3, Netcat, GTFOBins | SSRF exploitation using CVE-2023-27163, privilege escalation via systemctl using CVE-2023-26604 |
 | Devel | Windows | TBA |  TBA |
-| Shocker | LInux | TBA  | TBA |
+| Shocker | Linux | TBA  | TBA |
 
 # Starting Point
 
