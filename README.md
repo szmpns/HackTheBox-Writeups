@@ -18,6 +18,8 @@
 | [Bashed](./Machines/Bashed/) | Linux | Nmap, Gobuster, phpbash, Python, Netcat | Web shell exploitation by leveraging a pre-existing shell(phpbash), Privilege escalation through script modification and scheduled root execution |
 | Chemistry| Linux | TBA | This machine is still active. The writeup will be available once the machine is retired. |
 | [Sau](./Machines/Sau/) | Linux | Nmap, Git, Bash, Python3, Netcat, GTFOBins | SSRF exploitation using CVE-2023-27163, privilege escalation via systemctl using CVE-2023-26604 |
+| Devel | Windows | TBA |  TBA |
+| Shocker | LInux | TBA  | TBA |
 
 # Starting Point
 
